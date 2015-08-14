@@ -3,5 +3,7 @@
 int main(int argc, char** argv)
 {
 	printf("hello world!\n");
+
+	printf("ali gouta wins!\n");
 	return 0;
 }
