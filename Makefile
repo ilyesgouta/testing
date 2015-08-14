@@ -1,6 +1,6 @@
 
-.o.c:
+%.o: %.c
 	gcc -c -O0 -g $< -o $@
 
-test:
+test: test.o
 	gcc $< -o $@
